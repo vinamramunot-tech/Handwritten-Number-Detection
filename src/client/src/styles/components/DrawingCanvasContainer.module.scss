@@ -1,0 +1,13 @@
+@import '../utilities/spacing';
+
+.drawing-canvas-container button {
+    margin-top: $default-spacing;
+
+    &:not(:last-child) {
+        margin-right: $default-spacing;
+    }
+}
+
+.drawing-canvas-container {
+    padding: $major-spacing 0;
+}

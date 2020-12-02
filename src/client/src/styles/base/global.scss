@@ -1,0 +1,42 @@
+@import "../utilities/colors";
+@import "../utilities/layered-box-shadow";
+@import "../utilities/font-sizes";
+@import "../utilities/spacing.scss";
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+@import url("https://fonts.googleapis.com/css?family=Karla");
+
+:root {
+    font-size: 6.25%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: $dark-black;
+    color: $light-white;
+}
+
+h1 {
+    font-size: 32rem;
+}
+
+h2 {
+    font-size: 28rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Monsterrat", Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    margin-bottom: $default-spacing;
+}
+
+p, div, span, button, a, li, label {
+    font-family: "Karla", Arial, Helvetica, sans-serif;
+    font-size: $normal-font-size;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}

@@ -1,0 +1,12 @@
+@import '../utilities/spacing';
+@import '../utilities/colors';
+@import '../utilities/border-radius';
+@import '../utilities/layered-box-shadow';
+
+.card {
+    display: inline-block;
+    background: $light-black;
+    border-radius: $minor-border-radius;
+    padding: $default-spacing $default-spacing * 1.5;
+    box-shadow: get-layered-box-shadow();
+}

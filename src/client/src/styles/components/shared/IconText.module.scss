@@ -1,0 +1,14 @@
+@import '../../utilities/spacing';
+
+.icon-text {
+    &, .icon {
+        display: inline-flex;
+        align-items: center;
+        font-size: 1em;
+    }    
+
+    > span { // .icon
+        display: inline-flex;
+        margin-right: $minor-spacing;
+    }
+}
